@@ -1,0 +1,28 @@
+/* Custom styles for S.R Tours & Travels */
+
+body{
+  background: #0f0f0f;
+  color: white;
+  font-family: Arial;
+}
+
+.brand{
+  font-family: 'Playfair Display', serif;
+}
+
+@keyframes pulse{
+  0%{transform: scale(1);}
+  50%{transform: scale(1.1);}
+  100%{transform: scale(1);}
+}
+
+.whatsapp{
+  animation: pulse 1.6s infinite;
+  z-index: 9999;
+  position: fixed;
+}
+
+.swiper-button-next,
+.swiper-button-prev{
+  color: white;
+}
